@@ -1,7 +1,24 @@
 aid: sunnyside
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sunnyside.png
 name: Sunnyside
-description: Sunnyside is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Sunnyside is a digital health platform for alcohol moderation, founded in 2020, that
+  helps members cut back on or quit drinking through personalized weekly plans, drink tracking and
+  analytics, human text-based coaching, habit-building exercises, and a supportive community. Its
+  separate Sunnyside Med telehealth service connects members with licensed providers who can prescribe
+  compounded naltrexone. Sunnyside is a consumer mobile app and telehealth service and does not
+  currently publish a public developer API, SDKs, or developer documentation. It was surfaced as a
+  portfolio company of Uncork Capital.
 url: https://raw.githubusercontent.com/api-evangelist/sunnyside/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Digital Health
+- Health and Wellness
+- Telehealth
+- Behavior Change
+- Alcohol Moderation
+- Consumer App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.sunnyside.co
+- type: Blog
+  url: https://www.sunnyside.co/blog
+- type: Support
+  url: https://help.sunnyside.co/
+- type: SignUp
+  url: https://app.sunnyside.co/diagnostic
+- type: TermsOfService
+  url: https://www.sunnyside.co/terms
+- type: PrivacyPolicy
+  url: https://sunnyside.co/privacy
+- type: DomainSecurity
+  url: security/sunnyside-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
